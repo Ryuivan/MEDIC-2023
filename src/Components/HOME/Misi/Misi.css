@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+  .misi-desc {
+    font-size: 1rem !important;
+  }
+}
+
+.misi-judul {
+  font-weight: 500 !important;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.misi-underline {
+  content: "";
+  display: block;
+  width: 65px;
+  background-color: #112a46;
+  height: 3px;
+  margin: 0 auto 20px !important;
+}
+
+.misi-desc {
+  font-size: 1.1rem;
+  margin-top: 25px;
+  text-align: justify;
+  list-style: none;
+}

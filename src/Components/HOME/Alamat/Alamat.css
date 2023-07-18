@@ -1,0 +1,52 @@
+@media (max-width: 992px) {
+  .alamat-judul {
+    text-align: center !important;
+  }
+
+  .alamat-underline {
+    margin: 0 auto !important;
+  }
+
+  .alamat-desc {
+    text-align: justify !important;
+  }
+
+  .embed-responsive {
+    display: flex;
+    justify-content: center;
+  }
+
+  .embed-responsive-item {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .alamat-desc {
+    font-size: 1rem !important;
+  }
+}
+
+#alamat {
+  margin-top: 50px;
+}
+
+.alamat-judul {
+  text-align: right;
+  font-weight: 500;
+}
+
+.alamat-underline {
+  content: "";
+  display: block;
+  width: 120px;
+  background-color: #112A46;
+  height: 3px;
+  margin-left: auto;
+}
+
+.alamat-desc {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  text-align: right;
+}

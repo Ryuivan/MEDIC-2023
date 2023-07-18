@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.mainLine2 {
+  width: auto;
+  height: 2px;
+  background-color: #112A46;
+  margin-top: 40px;
+}
+
+#home-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434917812195409/home.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#about-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434919145984060/page_about.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#proker-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/1079650552830513222/1123247167046430790/Website_medic_bg_1920x2936.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#tofu-pmi-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434916201582732/tofu_pmi.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#sertijab-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434919573794857/sertijab.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#gallery-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434917212397659/gallery.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#tofu1-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434920014192640/tofu_1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#tofu2-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434920676896828/tofu_2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#makaroni-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434918667825272/makaroni.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#tropicana-bg {
+  background-image: url('https://cdn.discordapp.com/attachments/916981806287421510/1125434916755222588/tropicana.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

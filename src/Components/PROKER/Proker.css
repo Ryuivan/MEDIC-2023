@@ -1,0 +1,92 @@
+@media (max-width: 425px) {
+  .flip-card {
+    width: 240px !important;
+    height: 360px !important;
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flash-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#proker .title {
+  margin: 20px 0;
+}
+
+#proker .title h1 {
+  font-size: 40px;
+}
+
+.flip-card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 20px !important;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover {
+  cursor: pointer;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  background-color: #cccccc;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 30px;
+  text-align: center;
+}
+
+.flip-card-back h2,
+.flip-card-back h4 {
+  margin-bottom: 20px;
+}
+
+.flip-card-back h5 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.flash-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

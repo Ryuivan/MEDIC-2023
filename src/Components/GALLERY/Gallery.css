@@ -1,0 +1,151 @@
+@media (max-width: 1440px) {
+  .photo-container {
+    flex-direction: column;
+  }
+
+  .photo-card {
+    margin: 20px 0 !important;
+  }
+
+  .photo-img {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+
+  .img-overlay {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  margin: 20px !important;
+  position: relative;
+}
+
+.photo-img {
+  width: 31vw;
+  height: 35vh;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31vw;
+  height: 35vh;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-overlay > * {
+  transform: translateY(20px);
+  transition: 0.25s ease;
+}
+
+.img-overlay-blur {
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+
+.img-overlay:hover {
+  opacity: 1;
+}
+
+.img-overlay:hover > * {
+  transform: translateY(0px);
+}
+
+.img-title h3,
+.img-title h6 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.photo-frame {
+  border: 3px solid white;
+  overflow: hidden !important;
+}
+
+.photo-frame-img {
+  width: 100%;
+  display: block !important;
+  transition: all 0.3s linear;
+  /* object-fit: cover; */
+}
+
+.photo-frame-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.pop-up :is(img, video) {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  max-width: 95%;
+  max-height: 80%;
+  object-fit: contain;
+  border: 3px solid white;
+}
+
+.pop-up span {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  z-index: 100;
+  user-select: none;
+}
+
+.gallery-calendar {
+  margin: 3px 5px;
+}
+
+.back-btn {
+  text-decoration: none !important;
+  margin-top: 30px;
+  color: #112a46;
+  background-color: transparent;
+  border: 3px solid #112a46;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #112a46;
+  color: white;
+}

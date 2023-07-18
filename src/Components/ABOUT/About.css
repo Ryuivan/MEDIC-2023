@@ -1,0 +1,160 @@
+@media (max-width: 1400px) {
+  .about-title,
+  .about-desc {
+    text-align: center !important;
+  }
+}
+
+#about-content {
+  padding-top: 70px;
+}
+
+.mainLine {
+  width: auto;
+  height: 2px;
+  background-color: #112A46;
+  margin-top: 70px;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-weight: 500;
+}
+
+.about-desc {
+  margin-bottom: 18px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.aboutUnderline {
+  content: "";
+  display: block;
+  background-color: #112A46;
+  height: 3px;
+}
+
+.about-line {
+  width: 325px !important;
+}
+
+.tagline-line {
+  width: 230px !important;
+}
+
+.organigram-line {
+  width: 200px !important;
+}
+
+.filosofi-line {
+  width: 410px !important;
+}
+
+.maskot-line {
+  width: 450px !important;
+}
+
+.logoMedic img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.maskot {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 1024px) {
+  .about-line {
+    width: 310px !important;
+  }
+  
+  .tagline-line {
+    width: 215px !important;
+  }
+  
+  .organigram-line {
+    width: 190px !important;
+  }
+  
+  .filosofi-line {
+    width: 390px !important;
+  }
+  
+  .maskot-line {
+    width: 430px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-line {
+    width: 280px !important;
+  }
+  
+  .tagline-line {
+    width: 200px !important;
+  }
+  
+  .organigram-line {
+    width: 175px !important;
+  }
+  
+  .filosofi-line {
+    width: 360px !important;
+  }
+  
+  .maskot-line {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-line {
+    width: 250px !important;
+  }
+  
+  .tagline-line {
+    width: 180px !important;
+  }
+  
+  .organigram-line {
+    width: 155px !important;
+  }
+  
+  .filosofi-line {
+    width: 320px !important;
+  }
+  
+  .maskot-line {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .about-line {
+    width: 70vw !important;
+  }
+  
+  .tagline-line {
+    width: 50vw !important;
+  }
+  
+  .organigram-line {
+    width: 40vw !important;
+  }
+  
+  .filosofi-line {
+    width: 85vw !important;
+  }
+  
+  .maskot-line {
+    width: 70vw !important;
+  }
+}

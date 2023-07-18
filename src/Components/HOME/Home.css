@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+    .main-underline {
+        width: 310px;
+    }
+
+    .visi-underline {
+        width: 55px
+    }
+
+    .misi-underline {
+        width: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-underline {
+        width: 260px !important;
+    }
+
+    .visi-underline {
+        width: 45px !important;
+    }
+
+    .misi-underline {
+        width: 50px !important;
+    }
+
+    .alamat-underline {
+        width: 100px !important;
+    }
+}
